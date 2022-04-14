@@ -115,31 +115,31 @@
   
   .imag {
     border: 1px solid var(--White);
-    border-radius: 50%;
+    border-radius: 100%;
     width: 2rem;
     height: auto;
     margin-right: 1rem;
   }
   .button-container{
-    margin-top: 20px;
-    height: 36px;
+    margin-top: 40px;
+    height: 45px;
     display: flex;
     align-content:space-around;
     justify-content: space-around;
 }
 .button{
-    width: 400px;
+    width: 200px;
     border-radius: 40px;
     border:1px solid rgb(177, 43, 43);
-    color: var(--White);
-    background-color:rgb(165, 226, 43);
-    cursor: pointer;
-    font-size: 16px;
+    color: var(--Very-dark-blue-card-BG);
+    background-color:rgb(226, 153, 43);
+    cursor: progress;
+    font-size: 25px;
 }
 .button:hover{
     color:var(--Very-dark-blackish-blue);
     background-color: var(--Black);
 }
 .button:disabled{
-    opacity: 2.5;
+    opacity: 1.5;
 }
